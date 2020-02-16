@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B9909B0123F9F280000DDB02 /* PersonCalloutView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9909B0023F9F280000DDB02 /* PersonCalloutView.xib */; };
+		B9909B0323F9F291000DDB02 /* PersonCalloutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9909B0223F9F291000DDB02 /* PersonCalloutView.swift */; };
+		B9909B0C23F9FDB3000DDB02 /* UIView+BezierPaths.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9909B0B23F9FDB3000DDB02 /* UIView+BezierPaths.swift */; };
+		B9A0C7B023F8E07100154695 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A0C7AF23F8E07100154695 /* MapViewController.swift */; };
+		B9A0C7B323F8E0AB00154695 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A0C7B223F8E0AB00154695 /* Person.swift */; };
+		B9A0C7B523F8E0E000154695 /* PeopleWishListManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A0C7B423F8E0E000154695 /* PeopleWishListManager.swift */; };
+		B9A0C7B823F8E11500154695 /* PersonWishListAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A0C7B723F8E11500154695 /* PersonWishListAnnotation.swift */; };
+		B9A0C7BA23F8E21800154695 /* PersonWishListAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A0C7B923F8E21800154695 /* PersonWishListAnnotationView.swift */; };
 		B9FCA50E23F879C1000F3DF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FCA50D23F879C1000F3DF8 /* AppDelegate.swift */; };
 		B9FCA51023F879C1000F3DF8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FCA50F23F879C1000F3DF8 /* SceneDelegate.swift */; };
 		B9FCA51223F879C1000F3DF8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FCA51123F879C1000F3DF8 /* ViewController.swift */; };
@@ -15,6 +23,10 @@
 		B9FCA51A23F879C2000F3DF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9FCA51823F879C2000F3DF8 /* LaunchScreen.storyboard */; };
 		B9FCA52523F879C2000F3DF8 /* controllersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FCA52423F879C2000F3DF8 /* controllersTests.swift */; };
 		B9FCA53023F879C2000F3DF8 /* controllersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FCA52F23F879C2000F3DF8 /* controllersUITests.swift */; };
+		B9FCA53F23F8861B000F3DF8 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FCA53E23F8861B000F3DF8 /* Constants.swift */; };
+		B9FCA54123F88770000F3DF8 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FCA54023F88770000F3DF8 /* SecondViewController.swift */; };
+		B9FCA54323F889E7000F3DF8 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FCA54223F889E7000F3DF8 /* ThirdViewController.swift */; };
+		B9FCA54523F88EDD000F3DF8 /* FourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FCA54423F88EDD000F3DF8 /* FourViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +47,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B9909B0023F9F280000DDB02 /* PersonCalloutView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PersonCalloutView.xib; sourceTree = "<group>"; };
+		B9909B0223F9F291000DDB02 /* PersonCalloutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonCalloutView.swift; sourceTree = "<group>"; };
+		B9909B0B23F9FDB3000DDB02 /* UIView+BezierPaths.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+BezierPaths.swift"; sourceTree = "<group>"; };
+		B9A0C7AF23F8E07100154695 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		B9A0C7B223F8E0AB00154695 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		B9A0C7B423F8E0E000154695 /* PeopleWishListManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeopleWishListManager.swift; sourceTree = "<group>"; };
+		B9A0C7B723F8E11500154695 /* PersonWishListAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonWishListAnnotation.swift; sourceTree = "<group>"; };
+		B9A0C7B923F8E21800154695 /* PersonWishListAnnotationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonWishListAnnotationView.swift; sourceTree = "<group>"; };
 		B9FCA50A23F879C1000F3DF8 /* controllers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = controllers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9FCA50D23F879C1000F3DF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B9FCA50F23F879C1000F3DF8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +69,10 @@
 		B9FCA52B23F879C2000F3DF8 /* controllersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = controllersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9FCA52F23F879C2000F3DF8 /* controllersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = controllersUITests.swift; sourceTree = "<group>"; };
 		B9FCA53123F879C2000F3DF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9FCA53E23F8861B000F3DF8 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		B9FCA54023F88770000F3DF8 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		B9FCA54223F889E7000F3DF8 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		B9FCA54423F88EDD000F3DF8 /* FourViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +100,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B9909AF323F9EDE4000DDB02 /* xib */ = {
+			isa = PBXGroup;
+			children = (
+				B9909B0023F9F280000DDB02 /* PersonCalloutView.xib */,
+				B9909B0223F9F291000DDB02 /* PersonCalloutView.swift */,
+			);
+			path = xib;
+			sourceTree = "<group>";
+		};
+		B9909B0A23F9F7AF000DDB02 /* CategoriesExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				B9909B0B23F9FDB3000DDB02 /* UIView+BezierPaths.swift */,
+			);
+			path = CategoriesExtensions;
+			sourceTree = "<group>";
+		};
+		B9A0C7AE23F8E05700154695 /* viewcontrollers */ = {
+			isa = PBXGroup;
+			children = (
+				B9A0C7AF23F8E07100154695 /* MapViewController.swift */,
+			);
+			path = viewcontrollers;
+			sourceTree = "<group>";
+		};
+		B9A0C7B123F8E08C00154695 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				B9A0C7B423F8E0E000154695 /* PeopleWishListManager.swift */,
+				B9A0C7B223F8E0AB00154695 /* Person.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		B9A0C7B623F8E10700154695 /* annotation */ = {
+			isa = PBXGroup;
+			children = (
+				B9A0C7B723F8E11500154695 /* PersonWishListAnnotation.swift */,
+				B9A0C7B923F8E21800154695 /* PersonWishListAnnotationView.swift */,
+			);
+			path = annotation;
+			sourceTree = "<group>";
+		};
 		B9FCA50123F879C1000F3DF8 = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +166,12 @@
 		B9FCA50C23F879C1000F3DF8 /* controllers */ = {
 			isa = PBXGroup;
 			children = (
+				B9909B0A23F9F7AF000DDB02 /* CategoriesExtensions */,
+				B9909AF323F9EDE4000DDB02 /* xib */,
+				B9A0C7B623F8E10700154695 /* annotation */,
+				B9A0C7B123F8E08C00154695 /* model */,
+				B9A0C7AE23F8E05700154695 /* viewcontrollers */,
+				B9FCA53D23F8860B000F3DF8 /* constants */,
 				B9FCA50D23F879C1000F3DF8 /* AppDelegate.swift */,
 				B9FCA50F23F879C1000F3DF8 /* SceneDelegate.swift */,
 				B9FCA51123F879C1000F3DF8 /* ViewController.swift */,
@@ -106,6 +179,9 @@
 				B9FCA51623F879C2000F3DF8 /* Assets.xcassets */,
 				B9FCA51823F879C2000F3DF8 /* LaunchScreen.storyboard */,
 				B9FCA51B23F879C2000F3DF8 /* Info.plist */,
+				B9FCA54023F88770000F3DF8 /* SecondViewController.swift */,
+				B9FCA54223F889E7000F3DF8 /* ThirdViewController.swift */,
+				B9FCA54423F88EDD000F3DF8 /* FourViewController.swift */,
 			);
 			path = controllers;
 			sourceTree = "<group>";
@@ -126,6 +202,14 @@
 				B9FCA53123F879C2000F3DF8 /* Info.plist */,
 			);
 			path = controllersUITests;
+			sourceTree = "<group>";
+		};
+		B9FCA53D23F8860B000F3DF8 /* constants */ = {
+			isa = PBXGroup;
+			children = (
+				B9FCA53E23F8861B000F3DF8 /* Constants.swift */,
+			);
+			path = constants;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +316,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9909B0123F9F280000DDB02 /* PersonCalloutView.xib in Resources */,
 				B9FCA51A23F879C2000F3DF8 /* LaunchScreen.storyboard in Resources */,
 				B9FCA51723F879C2000F3DF8 /* Assets.xcassets in Resources */,
 				B9FCA51523F879C1000F3DF8 /* Main.storyboard in Resources */,
@@ -259,9 +344,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9909B0C23F9FDB3000DDB02 /* UIView+BezierPaths.swift in Sources */,
 				B9FCA51223F879C1000F3DF8 /* ViewController.swift in Sources */,
+				B9A0C7B823F8E11500154695 /* PersonWishListAnnotation.swift in Sources */,
 				B9FCA50E23F879C1000F3DF8 /* AppDelegate.swift in Sources */,
+				B9FCA54523F88EDD000F3DF8 /* FourViewController.swift in Sources */,
+				B9A0C7B523F8E0E000154695 /* PeopleWishListManager.swift in Sources */,
 				B9FCA51023F879C1000F3DF8 /* SceneDelegate.swift in Sources */,
+				B9FCA54123F88770000F3DF8 /* SecondViewController.swift in Sources */,
+				B9FCA54323F889E7000F3DF8 /* ThirdViewController.swift in Sources */,
+				B9A0C7B323F8E0AB00154695 /* Person.swift in Sources */,
+				B9909B0323F9F291000DDB02 /* PersonCalloutView.swift in Sources */,
+				B9A0C7BA23F8E21800154695 /* PersonWishListAnnotationView.swift in Sources */,
+				B9FCA53F23F8861B000F3DF8 /* Constants.swift in Sources */,
+				B9A0C7B023F8E07100154695 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,7 +529,6 @@
 		B9FCA53523F879C2000F3DF8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4Y97C8NL9P;
 				INFOPLIST_FILE = controllers/Info.plist;
@@ -451,7 +546,6 @@
 		B9FCA53623F879C2000F3DF8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4Y97C8NL9P;
 				INFOPLIST_FILE = controllers/Info.plist;
