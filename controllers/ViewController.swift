@@ -9,11 +9,21 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    let isSkipController = true
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         navigationItem.title = "Root View"
+        
+        if(isSkipController){
+            let storyBoard = UIStoryboard(name: "Main", bundle:nil)
+            let thirdController = storyBoard.instantiateViewController(withIdentifier: K.id_ThirdController) as! ThirdViewController
+            thirdController.myMessage = "nuevo mundo"
+            self.presentInFullScreen(thirdController, animated: false)
+        }else{
+            
+        }
     }
 
     @IBAction func OnPressedSiguiente(_ sender: UIButton) {
@@ -40,7 +50,11 @@ class ViewController: UIViewController {
         let storyBoard = UIStoryboard(name: "Main", bundle:nil)
         let thirdController = storyBoard.instantiateViewController(withIdentifier: K.id_ThirdController) as! ThirdViewController
         thirdController.myMessage = "nuevo mundo"
-        self.present(thirdController, animated: true, completion: nil)
+//        thirdController.modalPresentationStyle = .fullScreen
+//        self.present(thirdController, animated: true, completion: nil)
+        
+        
+        self.presentInFullScreen(thirdController, animated: true)
 
     }
 

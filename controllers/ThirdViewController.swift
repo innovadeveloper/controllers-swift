@@ -40,7 +40,8 @@ class ThirdViewController: UIViewController {
     }
     
     @IBAction func OnPressedExit(_ sender: UIButton) {
-        self.dismiss(animated: true, completion: nil)
+//        self.dismiss(animated: true, completion: nil)
+        exit(0)
     }
     
     @IBAction func OnBackPressed(_ sender: UIButton) {
