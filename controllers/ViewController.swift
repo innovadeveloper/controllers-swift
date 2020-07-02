@@ -9,7 +9,7 @@
 import UIKit
 
 class ViewController: UIViewController {
-    let isSkipController = true
+    let isSkipController = false
     
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -47,6 +47,8 @@ class ThirdViewController: UIViewController {
     @IBAction func OnBackPressed(_ sender: UIButton) {
         if let navController = self.navigationController {
             navController.popViewController(animated: true)
+        }else{
+            dismiss(animated: true, completion: nil)
         }
     } 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
